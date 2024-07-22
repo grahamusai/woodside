@@ -18,7 +18,7 @@ const Navbar = () => {
   
           <button
             type="button"
-            className="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+            className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
           >
             <svg
               className="block w-6 h-6"
@@ -55,40 +55,54 @@ const Navbar = () => {
             <a
               href="#"
               title=""
-              className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
             >
-              Features
+              About
             </a>
   
             <a
               href="#"
               title=""
-              className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
             >
-              Solutions
+              Our Services
             </a>
   
             <a
               href="#"
               title=""
-              className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
             >
-              Resources
+              Our Angels
             </a>
   
             <a
               href="#"
               title=""
-              className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
             >
-              Pricing
+              Stories
+            </a>
+            <a
+              href="#"
+              title=""
+              className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
+            >
+              Downloads
+            </a>
+            <a
+              href="#"
+              title=""
+              className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
+            >
+              Leave a bequest
             </a>
           </div>
   
           <a
             href="#"
             title=""
-            className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-blue-500 transition-all duration-200 bg-white border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
+            className="items-center justify-center hidden px-5 py-2 ml-10 text-sm font-semibold text-blue-500 transition-all duration-200 bg-white border border-transparent rounded-md lg:inline-flex hover:bg-blue-300 focus:bg-blue-700"
             role="button"
           >
             Support us
@@ -101,7 +115,7 @@ const Navbar = () => {
               <a
                 href="#"
                 title=""
-                className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="inline-flex py-2 text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
               >
                 Features
               </a>
@@ -109,7 +123,7 @@ const Navbar = () => {
               <a
                 href="#"
                 title=""
-                className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="inline-flex py-2 text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
               >
                 Solutions
               </a>
@@ -117,7 +131,7 @@ const Navbar = () => {
               <a
                 href="#"
                 title=""
-                className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="inline-flex py-2 text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
               >
                 Resources
               </a>
@@ -125,7 +139,7 @@ const Navbar = () => {
               <a
                 href="#"
                 title=""
-                className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="inline-flex py-2 text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
               >
                 Pricing
               </a>
@@ -136,7 +150,7 @@ const Navbar = () => {
             <a
               href="#"
               title=""
-              className="inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md items-center hover:bg-blue-700 focus:bg-blue-700"
+              className="inline-flex justify-center px-6 py-2 text-sm font-semibold text-white transition-all duration-200 bg-blue-300 border border-transparent rounded-md items-center hover:bg-blue-700 focus:bg-blue-700"
               role="button"
             >
               Get started now
