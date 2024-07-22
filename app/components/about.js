@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="px-24 ">
+    <div className="px-10 md:px-24 ">
       <h2 className="text-3xl text-center text-blue-500 py-5 font-bold">
         What About Us
       </h2>
@@ -29,7 +29,7 @@ const About = () => {
         </div>
       </div>
 
-      <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+      <section class="py-10  sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-xl mx-auto text-center">
             <div class="inline-flex px-4 py-1.5 mx-auto rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600">
@@ -94,7 +94,7 @@ const About = () => {
             <div class="transition-all duration-200 bg-[#FF0000] rounded-md  hover:shadow-xl">
               <div class="py-10 px-9">
                 <svg
-                  class="w-16 h-16 text-gray-400"
+                  class="w-16 h-16 text-gray-100"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -118,7 +118,7 @@ const About = () => {
             <div class="transition-all duration-200 bg-[#1480C9] rounded-md hover:shadow-xl">
               <div class="py-10 px-9">
                 <svg
-                  class="w-16 h-16 text-gray-400"
+                  class="w-16 h-16 text-gray-100"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

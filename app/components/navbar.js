@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="#" title="" className="flex">
               <img
-                className="w-auto h-24 lg:h-10"
+                className="w-auto h-10 lg:h-10"
                 src="/images/woodside.png"
                 alt=""
               />
@@ -109,7 +109,7 @@ const Navbar = () => {
           </a>
         </nav>
   
-        <nav className="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+        {/* <nav className="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
           <div className="flow-root">
             <div className="flex flex-col px-6 -my-2 space-y-1">
               <a
@@ -156,7 +156,7 @@ const Navbar = () => {
               Get started now
             </a>
           </div>
-        </nav>
+        </nav> */}
       </div>
     </header>
   </div>
