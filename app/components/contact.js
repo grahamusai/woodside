@@ -8,7 +8,7 @@ const Contact = () => {
       </h2>
       <p className="text-center">
         Please register by sending your details on the Contact Us page. Click
-        'im in' below.
+        im in below.
       </p>
 
       <section className="py-10 bg-white sm:py-16 lg:py-24">
