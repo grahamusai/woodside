@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="px-10 md:px-24 md:mt-8">
-      <h2 class="mt-6 md:px-[18rem] text-2xl text-center font-bold leading-tight text-blue-600 sm:text-4xl lg:text-3xl">
+      <h2 className="mt-6 md:px-[18rem] text-2xl text-center font-bold leading-tight text-blue-600 sm:text-4xl lg:text-3xl">
         We would also appreciate your help with these few tasks
       </h2>
       <p className="text-center">
