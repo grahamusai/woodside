@@ -53,7 +53,7 @@ const Navbar = () => {
   
           <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
             <a
-              href="#"
+              href="/about"
               title=""
               className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
             >
