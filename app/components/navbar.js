@@ -61,7 +61,7 @@ const Navbar = () => {
             </a>
   
             <a
-              href="#"
+              href="/services"
               title=""
               className="text-sm font-medium text-white transition-all duration-200 hover:text-blue-300 focus:text-blue-300"
             >

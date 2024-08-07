@@ -106,7 +106,7 @@ const About = () => {
           <s></s>
           <div className="flex flex-col gap-10 md:flex-row w-full">
             <div className="w-1/2">
-            <Link href="https://www.youtube.com/watch?v=P2eGUn9fb-k&t=2s">
+            <Link href="https://www.youtube.com/watch?v=P2eGUn9fb-k&t=2s" target="_blank">
             <Image
                 className="w-full"
                 src="/images/image49.png"
